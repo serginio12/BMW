@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+    <title> BMW  </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bmw2.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width:900px)">
+     
+<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+
+    
+    
+    <script> $(function() {  
+            function runEffect() {  
+               $(".boom").toggle('explode', 300);  
+            };  
+            $(".buton").click(function() {  
+               runEffect();  
+               return false;  
+            });  
+         });  </script>
+
+    <script src="bmw2.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Starting with a CONTAINER -->
+    <div class="sidenav" id="mySidenav">
+        
+        <div class="boom">
+        <h1> BEEG BOOM</h1>
+            <h2>BOOM BOOM </h2> 
+        </div>
+        <button class="buton">click</button>
+      
+    </div> <!----- end of content ----->
+
+
+
+</body>

@@ -1,0 +1,284 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+.main-container{
+     height: 840px;
+     width: 100%;
+     background-image: url(home.img);
+    background-size: cover ;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+  
+       
+}
+
+#mySidenav{
+    position: absolute;
+    margin-top: 80px;
+}
+
+#mySidenav a{
+    
+    position: absolute;
+    left: -110px;
+    padding: 14px;
+    width: 140px;
+    text-decoration: none;
+    color: #83d4ff;
+    font-size: 18px;
+    transition: 0.4s;
+    overflow: hidden;
+     border-bottom-right-radius: 10px;
+    
+}
+
+#mySidenav a:hover{
+    left: 0;
+}
+
+#mySidenav{
+animation-duration: 1s;
+animation-delay: 0.4s ;
+}
+
+
+
+#mySidenav a:hover{
+    left: 0;
+}
+
+
+#about{
+    border: 1px solid white;
+    top: 20px;
+    animation-duration: 2.6s;
+    animation-delay: 0.3s;
+}
+
+#blog{
+    top:  80px;
+     border: 1px solid white;
+     animation-duration: 2.6s;
+    animation-delay: 0.6s;
+}
+#discover{
+    border: 1px solid white;
+    top:  140px;
+    animation-duration: 2.6s;
+    animation-delay: 0.9s;
+}
+
+#contact{
+    border: 1px solid white;
+    top:  200px;
+    animation-duration: 2.6s;
+    animation-delay: 1.2s;
+}
+
+#home{
+    top:  260px;
+    animation-duration: 2.6s;
+    animation-delay: 1.5s;
+    border: 1px solid white;
+}
+
+
+
+#one-content{
+box-sizing: border-box;
+width: 20%;
+height: 400px;
+float: right;
+    color: white;
+    
+}
+
+.logo-bmw-one{
+    left: 65%;
+    padding-top: 30px;
+    width: 9%;
+    position: absolute;
+        z-index: 1;
+}
+img{
+    width: 90%;
+
+}
+
+
+.logo-bmw{
+    background: url(LOGO3.jpg) no-repeat;
+    background-position: center -50px ;
+    height: 335px;
+    width: 27%;
+    position: absolute;
+    border-radius: 200px;
+    top: 31%;
+    left: 410px;
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+
+
+.navigation-content{
+    margin-top: 20px;
+    margin-left: 120px;
+    height: 40px;
+    position: absolute;
+    width: 50%;
+}
+
+ .navigation-content ul {
+     margin: 0;
+     padding: 0;
+}
+.navigation-content ul li{
+    width: 16%;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.navigation-content ul li a{
+    text-decoration: inherit;
+    color: white;
+}
+
+.navigation-content a{
+    
+    position: relative;
+}
+
+ .navigation-content  a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.4px;
+    background-color: #33a3f5;
+    transition: 0.4s;
+    transform: scaleX(0);
+    
+}
+
+.navigation-content a:hover:before{
+    width: 100%;
+    transform: scaleX(1);
+}
+
+
+ 
+
+#li-jq1{
+ animation-duration: 1s;
+animation-delay: 0.6s ;
+}
+#li-jq2{
+ animation-duration: 1s;
+animation-delay: 0.7s ;
+}
+#li-jq3{
+ animation-duration: 1s;
+animation-delay: 0.8s ;
+}
+#li-jq4{
+ animation-duration: 1s;
+animation-delay: 0.9s ;
+}
+#li-jq5{
+ animation-duration: 1s;
+animation-delay: 1.2s;
+}
+
+.inform{
+    height: 170px;
+    background-color: #212020;
+    position: relative;
+    width: 100%;
+    top: 80%;
+    
+    
+}
+
+.nav-bmw{
+    width: 100%;
+    height: px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #9d9d9d;
+}
+
+.nav-bmw ul{
+    margin-left: 120px;
+    margin-top: 2px;
+}
+
+.nav-bmw ul li{
+    display: inline-block;
+    width: 12%;
+ 
+    
+}
+
+.nav-bmw ul li h4{
+    margin: 7px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.fas{
+color: #2255a7;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.footer{
+    width: 77%;
+    height: 80px;
+    margin-top: 15px;
+    border-bottom: 0.3px solid #555555;
+    position: absolute;
+    left: 13%;
+    margin-top: 8px;
+    
+}
+
+.boxes{
+    width: 17%;
+    float: right; 
+}
+
+.boxes p{
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    text-align: right;
+    margin: 2px;
+    
+}
+
+.copyright{
+    position: absolute;
+    width: 12%;
+    height: 24px;
+    margin-top: 90px;
+    font-size: 8px;
+    margin-left: 14%;
+    
+}
+.copyright h2{
+    color: white;
+    font-weight: 100;
+}
+
+
+
+
+

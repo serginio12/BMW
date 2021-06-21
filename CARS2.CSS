@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+
+.container{
+    height: 1100px;
+    width:100%;
+}
+.navigation{
+    
+    width: 100%;
+    height: 100px;
+     background-color: #3b3b3b; 
+}
+.logo-bmw{
+    left: 5%;
+    padding-top: 3px;
+
+    width: 9%;
+}
+img{
+    width: 100%;
+}
+
+.nav-bord{
+    top: 0px;
+    position: absolute;
+    height: 40px;
+    width: 90%;
+    margin-left: 9%;
+    background-color: #1c1c1c;
+}
+
+.nav-bord ul{
+    margin: 0;
+    padding: 0;
+}
+.nav-bord ul li{
+    display: inline-block;
+    width: 10%;
+    height: 30px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top:10px;
+}
+
+.nav-bord ul li:hover{
+  background-color: #4e4e4e; 
+}
+.nav-bord ul li a{
+    background-color: aqqua;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 10;
+    color: #ffffff;
+}
+
+.navigation-content{
+    top: 51px;
+    position: absolute;
+    width: 50%;
+    margin-left: 14%;
+  
+}
+.navigation-content ul{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-content ul li{
+    display: inline;
+    width: 79%;
+    height: 28px;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 14px;
+    margin: 3px;
+}
+.navigation-content ul li:hover{
+     background-color: #1c1c1c;
+}
+
+.navigation-content ul li a{
+    color: aliceblue;
+      text-decoration: none;
+}
+
+
+
+
+
+
+
+

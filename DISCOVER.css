@@ -1,0 +1,307 @@
+
+        body{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+
+.navigation{
+    width: 100%;
+    height: 78px;
+     background-color: #505050; 
+}
+.logo-bmw{
+    left: 79%;
+    padding-top: 10px;
+    width: 7%;
+    position: absolute;
+    z-index: 1;
+}
+img{
+    width: 90%;
+
+}
+
+.nav-bord{
+    top: 0px;
+    position: absolute;
+    height: 38px;
+    width: 100%;
+    background-color: #262626;
+}
+
+.nav-bord ul{
+    margin: 0;
+    padding: 0;
+}
+.nav-bord ul li{
+    display: inline-block;
+    width: 7%;
+    height: 28px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top:10px;
+}
+
+.nav-bord ul li:hover{
+  background-color: #4e4e4e; 
+}
+.nav-bord ul li a{
+    background-color: aqqua;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 10;
+    color: #ffffff;
+}
+
+
+.nav-bord-second{
+    top: 78px;
+    position: absolute;
+    height: 34px;
+    width: 100%;
+    background-color: #262626;
+}
+
+.nav-bord-second ul{
+    margin: 
+    padding: 0;
+}
+.nav-bord-second ul li{
+    list-style: none;
+    line-height: 4px;
+    width: 200px;
+}
+
+.nav-bord-second ul li:hover{
+  background-color: #4e4e4e; 
+}
+.nav-bord-second ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 10;
+    color: #ffffff;
+}
+
+
+
+
+.navigation-content{
+    top: 51px;
+    position: absolute;
+    margin-left: 8%;
+  
+}
+.navigation-content ul{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-content ul li{
+    display: inline;
+    width: 20px;
+    height: 0px;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 17px;
+     margin:4px;
+}
+.navigation-content ul li:hover{
+     background-color: #1c1c1c;
+}
+
+.navigation-content ul li a{
+    color: aliceblue;
+      text-decoration: none;
+    font-size: 14px;
+}
+
+.discover{
+    width: 100%;
+    height: 420px;
+    margin-top: 50px;
+}
+
+
+
+.discover-boxes{
+    width: 77%;
+    margin: auto;
+    height: 500px;
+}
+
+.boxes-bmw{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+    box-sizing: border-box;
+
+    
+  
+}
+.boxes-bmw-info{
+    width: 30%;
+    margin: 14px;
+    overflow: hidden;
+}
+
+.boxes-bmw-info img{
+    width: 100%;
+    border-bottom: 3px solid #084ce6;
+     transition:  all 0.3s ease-in-out;
+    background-position: center;
+    display: block;
+
+}
+
+.boxes-bmw-info:hover img{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+    
+}
+
+
+.boxes-bmw-info p{
+    font-size: 14px;
+}
+
+.boxes-bmw-info h1{
+    font-size: 17px;
+    margin: 7px;
+
+}
+
+.boxes-bmw-info .button{
+    background-color: #2870e3;
+    color: white;
+    height: 30px;
+    width: 120px;
+    font-size: 10px;
+cursor: pointer;
+    border: none;
+}
+
+.button:hover{
+   background-color: #2255a7;
+
+}
+
+.inform{
+    height: 170px;
+    background-color: #212020;
+}
+
+.nav-bmw{
+    width: 100%;
+    height: 40px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #9d9d9d;
+}
+
+.nav-bmw ul{
+    margin-left: 120px;
+    margin-top: 2px;
+}
+
+.nav-bmw ul li{
+    display: inline-block;
+    width: 11%;
+}
+
+.nav-bmw ul li h4{
+    text-align: justify;
+    margin: 4px;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.fas{
+color: #5a95f4;
+    margin-right: 9px;
+    font-size: 12px;
+}
+
+.footer{
+    width: 77%;
+    height: 80px;
+    margin-top: 15px;
+    border-bottom: 0.3px solid #555555;
+    position: absolute;
+    left: 13%;
+    margin-top: 8px;
+    
+}
+
+.boxes{
+    width: 17%;
+    float: right; 
+}
+
+.boxes p{
+    font-size: 12px;
+    color: white;
+    text-align: right;
+    margin: 2px;
+    
+}
+
+.copyright{
+    position: absolute;
+    width: 12%;
+    height: 24px;
+    margin-top: 90px;
+    font-size: 8px;
+    margin-left: 14%;
+    
+}
+.copyright h2{
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .nav-bmw ul li{
+        width: 14%;
+        background-color: #d9feff;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    
+    .discover .footer{
+        background-color: red;
+    }
+    
+   
+    
+   .nav-bord ul li {
+    width: 14%;
+    background-color: #d9feff;
+   
+}
+    
+    .boxes-bmw{
+        display: inline;
+    }
+    .boxes-bmw-info{
+        width: auto;
+    }
+    
+    .inform{
+        margin-top: 170%;
+    }
+    
+    
+}
+
+
+
+
+
+
